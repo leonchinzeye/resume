@@ -19,7 +19,7 @@ export default class Header extends Component {
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
-                            <h3>Singapore based <span>Java Developer</span> working for a <span>FinTech</span> company. Experienced in working on backend development with teammates from diverse backgrounds. Learn more <a className="smoothscroll" href='#about'>about me</a>.</h3>
+                            <h3>Singapore based <span>Java Developer</span> working for a <span>FinTech</span> company. Experienced in working on backend development, building scalable solutions with microservices. Learn more <a className="smoothscroll" href='#about'>about me</a>.</h3>
                             <hr />
                             <ul className="social">
                                 <li><a href={resumeData.github}><i className="fa fa-github" /></a></li>

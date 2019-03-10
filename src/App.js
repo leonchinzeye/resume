@@ -8,10 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header resumeData={resumeData}/>
-        <About />
-        <Resume />
-        <Contact />
-        <Footer />
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Contact resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
       </div>
     );
   }
