@@ -12,7 +12,8 @@ export default class Header extends Component {
                         </div>
                         <div className="ten columns">
                             <p className="lead">If you wish to contact me regarding available job openings 
-                            or general enquiries on what I do, my contact details are listed down below.
+                            or general enquiries on what I do, feel free to drop me an email, or connect with
+                            me on LinkedIn.
                             </p>
                         </div>
                     </div>
@@ -21,9 +22,6 @@ export default class Header extends Component {
                             <h4>Contact Details</h4>
                             <p className="address">
                                 {resumeData.name}<br />
-                                {resumeData.address} <br />
-                                {resumeData.postal}<br />
-                                {resumeData.mobile}<br />
                                 <span>{resumeData.email}</span>
                             </p>
                         </div>
