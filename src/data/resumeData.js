@@ -5,7 +5,9 @@ let resumeData = {
     "postal": "Singapore 119039",
     "mobile": "+65 9127 9993",
     "email": "leonchinzeye@gmail.com",
+    "mailto": "mailto:leonchinzeye@gmail.com",
 
+    // header
 
     // write up
     "aboutme": "I am a software engineer with over 3 years of working experience building scalable backend services (microservices, sync/async processes). As a technologist, there is always the perpetual curiosity to seek out new findings and different ways in solving problems. While building software, I take pride in the fact that the products I build could potentially reach out to millions of people around the world. When I'm not hard at work, you can find me in climbing gyms, wracking out my brains to solve complex wall problems.",
@@ -16,7 +18,7 @@ let resumeData = {
             "company": "PayPal",
             "position": "Software Engineer",
             "tenure": "June 2016 - Present",
-            "description": "Java developer working on the Compliance platform. Leveraged on Agile practices to deliver products enforcing strict CIP and KYC processes for Consumers and Merchants all around the world. Played the role of technical lead in a key project and worked with international teams to deliver vital business solutions for customers."
+            "description": "Java developer working on the Compliance platform. Leveraged on Agile practices to deliver products enforcing strict CIP and KYC processes for Consumers and Merchants all around the world. Played the role of technical lead in a key project and worked with international teams to deliver vital business solutions for customers. Experienced in analyzing business requirements and translating them into business rules to facilitate workflow processes. Took part in PayPal Business Challenge as a side project and provided consultation to a NGO that educates students on financial planning. Contributed knowledge and expertise in <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:6502189281963020288\">content creation for tertiary institutions based in Singapore.</a> Took part in university outreach programmes and gave career talks at local schools to promote pursuing a software engineering career." 
         },
         {
             "company": "PayPal",
@@ -56,8 +58,7 @@ let resumeData = {
 
     // professional
     "github": "https://github.com/leonchinzeye",
-    "linkedin": "https://www.linkedin.com/in/leonchinzeye/",
-
+    "linkedin": "https://www.linkedin.com/in/leonchinzeye/"
 }
 
 export default resumeData;

@@ -8,7 +8,7 @@ export default class Resume extends Component {
                 <div className="twelve columns">
                     <h3>{data[i].company}</h3>
                     <p className="info">{data[i].position}<span>•</span> <em className="date">{data[i].tenure}</em></p>
-                    <p>{data[i].description}</p>
+                    <p dangerouslySetInnerHTML={{__html: data[i].description}} />
                 </div>
             </div>)
         }
@@ -24,7 +24,7 @@ export default class Resume extends Component {
                 <div className="twelve columns">
                     <h3>{data[i].school}</h3>
                     <p className="info">{data[i].degree}<span>•</span> <em className="date">{data[i].tenure}</em></p>
-                    <p>{data[i].description}</p>
+                    <p dangerouslySetInnerHTML={{__html: data[i].description}} />
                 </div>
             </div>)
         }
