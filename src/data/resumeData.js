@@ -44,7 +44,7 @@ let resumeData = {
             "school": "National University of Singapore",
             "degree": "Bachelor of Computing (Hons), Computer Science",
             "tenure": "Aug 2012 - June 2016",
-            "description": "Pursued a Computer Science degree as my first university course. During my undergraduate days, my main interest was in software engineer and understand the best practices in UX design."
+            "description": "Pursued a Computer Science degree as my first university course. During my undergraduate days, my main interest was in software engineering and understanding the best practices in UX design."
         },
         {
             "school": "Victoria University of Wellington",
